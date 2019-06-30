@@ -5,16 +5,12 @@ Input sequences should be in fasta or fastq format.
 The script depends on a vocabulary file containing all possible k-mers plus an 
 <unk> sign, one per line. (E.g. The vocabulary size is 8390657 when k = 12.)
 
-You can download the vocabulary file from http://gs
-
 If is_train is True, the script additionally requires a tab-delimited label file 
 mapping from label to species taxid.
 
-The mapping file used to train our model is available in http://gs
-
 You can run the script using the following command.
 ```
-python seq2tfrecord.py \
+python seq2tfrec_kmer.py \
   --input_seq example.fasta \
   --output_tfrec example.tfrec \
   --kmer 12 \
@@ -39,7 +35,7 @@ from absl import app as absl_app
 from absl import flags
 import tensorflow as tf
 
-from official.utils.flags import core as flags_core
+from utils.flags import core as flags_core
 
 
 def forward2reverse(dna):

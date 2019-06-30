@@ -102,15 +102,15 @@ def convert_advance_file_predict(input_file, output_tfrecord, seq_type):
 
 def main(argv):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_fasta')
-    parser.add_argument('--output_tfrecord')
-    parser.add_argument('--label_file', default='lab2tax.txt')
-    parser.add_argument('--software', default='metasim', help='art/metasim')
+    parser.add_argument('--input_seq')
+    parser.add_argument('--output_tfrec')
+    parser.add_argument('--label', default='lable2taxid.txt')
+    parser.add_argument('--software', default='art', help='art/metasim')
     parser.add_argument('--is_train', default=False, help='mode')
     parser.add_argument('--seq_type', default='fasta', help='fasta/fastq')
     args = parser.parse_args()
-    input_fasta = args.input_fasta
-    output_tfrecord = args.output_tfrecord
+    input_fasta = args.input_seq
+    output_tfrecord = args.output_tfrec
     label_file = args.label_file
     software = args.software
     is_train = args.is_train
