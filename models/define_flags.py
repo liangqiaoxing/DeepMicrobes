@@ -11,7 +11,7 @@ def universal_flags():
     flags_core.define_base()
 
     flags.DEFINE_integer(
-        name='num_classes', default=1594,
+        name='num_classes', default=3640,
         help=flags_core.help_wrap(
             'Number of species to classify.'))
 

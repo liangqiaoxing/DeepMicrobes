@@ -1,2 +1,1 @@
-# DeepMicrobes
-DeepMicrobes: a deep learning architecture for taxonomic classification of shotgun metagenomic reads
+The vocabulary file for merged 12-mers can be downloaded here. 
