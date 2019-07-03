@@ -22,4 +22,4 @@
                       --vocab=/path/to/token_12mer
 
 
-The vocabulary file of merged 12-mers can be downloaded [here](https://drive.google.com/open?id=1QPV9Mdsrk8rHRvinKoMY4s-UCKyKK3xZ). 
+The vocabulary file of merged 12-mers can be downloaded [here](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/liangqx7_mail2_sysu_edu_cn/EoMaqt1sNbZHl9kFj84WvnsBT4dPFN_Yddkm0bo87Fms8g?e=KLgguV). 
